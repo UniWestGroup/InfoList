@@ -164,6 +164,7 @@ hr{
     right: 3em;
     transition: .6s;
     background: linear-gradient(35deg, #8000ff, #fe6a00);
+    color: #fff;
 }
 
             .container.form .form form button:hover{
