@@ -33,7 +33,7 @@
 }
 
 body{
-    background: url(Background.jpeg) center center no-repeat fixed;
+    background: url(Background.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -167,7 +167,6 @@ hr{
     transition: .6s;
     font-family: samimB;
     background: linear-gradient(35deg, #8000ff, #fe6a00);
-    color: #fff;
 }
 
             .container.form .form form button:hover{

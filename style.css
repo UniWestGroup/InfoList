@@ -33,7 +33,7 @@
 }
 
 body{
-    background: url(Background.jpeg) center center no-repeat fixed;
+    background: url(Background.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -87,10 +87,11 @@ body{
     overflow: hidden;
 }
 .container.img img{
-    width: auto;
+    width: 100%;
     height: 100%;
-    position: relative;
-    right: 20em;
+    /* position: relative; */
+    /* right: 20em; */
+    object-fit: cover;
 }
 
 .container.form{
@@ -164,7 +165,6 @@ hr{
     right: 3em;
     transition: .6s;
     background: linear-gradient(35deg, #8000ff, #fe6a00);
-    color: #fff;
 }
 
             .container.form .form form button:hover{
