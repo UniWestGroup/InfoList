@@ -7,6 +7,15 @@
     src: url(GOTHICB.TTF);
 }
 
+@font-face {
+    font-family: samim;
+    src: url(Samim.ttf);
+}
+@font-face {
+    font-family: samimB;
+    src: url(Samim-Bold.ttf);
+}
+
 
 
 ::-webkit-scrollbar{
@@ -117,8 +126,8 @@ hr{
     position: relative;
 }
 .container.form .form form h4{
-    letter-spacing: 2px;
-    font-family: gothic;
+    letter-spacing: 1px;
+    font-family: gothic,samimB;
 }
 
 .container.form .form form input{
@@ -131,6 +140,9 @@ hr{
     outline: none;
     background-color: rgba(0, 0, 0, 0.089);
 }
+    .container.form .form form input::-webkit-input-placeholder{
+        font-family: gothic,samim;
+    }
 .container.form .form form textarea{
     width: 510px;
     height: 70px;
@@ -141,7 +153,7 @@ hr{
     outline: none;
     background-color: rgba(0, 0, 0, 0.089);
     resize: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:samim;
 }
 
 .container.form .form form .salary{
@@ -151,6 +163,7 @@ hr{
 .container.form .form form p{
     font-size: 16px;
     margin-left: 8px;
+    font-family: gothic,samim;
 }
 
 .container.form .form form button{
@@ -166,6 +179,7 @@ hr{
     transition: .6s;
     background: linear-gradient(35deg, #8000ff, #fe6a00);
     color: #fff;
+    font-family: gothicB,samimB;
 }
 
             .container.form .form form button:hover{
